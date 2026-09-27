@@ -1,8 +1,5 @@
-# Il Mio Registro — versione pubblica
+# Il Mio Registro — V4 Pubblica
 
-Versione PWA pubblica e pulita. Al primo avvio il registro è vuoto: i dati vengono salvati localmente sul dispositivo/browser dell’utente tramite localStorage.
+Versione pubblica pulita dell’app personale. I dati non sono precaricati e vengono salvati localmente sul dispositivo.
 
-- Nessun dato personale o movimento demo pre-caricato.
-- Backup JSON locale.
-- Installabile come PWA quando servita via HTTPS.
-- Chi utilizza l’app può usare il pulsante “Ripristina dati demo” per creare dati fittizi di prova.
+Include PWA, icona personalizzata, calendario, archivio, backup JSON, registrazione intelligente e piani rateali.
