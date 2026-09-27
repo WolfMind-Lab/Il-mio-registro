@@ -6,5 +6,8 @@
   "background_color":"#f5f6f8",
   "theme_color":"#111827",
   "lang":"it",
-  "description":"Registro finanziario personale con scadenze, entrate, uscite, saldi e collegamenti intelligenti."
+  "description":"Registro finanziario personale con scadenze, entrate, uscite, saldi e collegamenti intelligenti.",
+  "icons":[
+    {"src":"./icon.png","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}
+  ]
 }
