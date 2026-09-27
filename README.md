@@ -1,22 +1,8 @@
-# Il Mio Registro V2 — PWA
+# Il Mio Registro — versione pubblica
 
-Registro personale per spese, rate, scadenze, pagamenti ed entrate.
+Versione PWA pubblica e pulita. Al primo avvio il registro è vuoto: i dati vengono salvati localmente sul dispositivo/browser dell’utente tramite localStorage.
 
-## Funzioni
-- dashboard e saldo previsto
-- scadenza ufficiale, pagamento programmato e pagamento effettivo
-- rate e piano rateale
-- stato da pagare / programmato / pagato
-- calendario finanziario
-- ricerca avanzata
-- categorie separate da metodo di pagamento
-- modifica, duplicazione ed eliminazione
-- backup JSON import/export
-- PWA installabile quando pubblicata su HTTPS
-- cache offline tramite Service Worker
-
-## Pubblicazione
-Per installarla come app su iPhone, pubblicare l'intera cartella su un hosting HTTPS (ad esempio GitHub Pages). Non basta aprire `index.html` direttamente dall'app File: il Service Worker e l'installazione PWA richiedono un contesto sicuro.
-
-## Dati
-I dati vengono salvati nel localStorage del browser. Usare periodicamente "Esporta JSON" per avere un backup.
+- Nessun dato personale o movimento demo pre-caricato.
+- Backup JSON locale.
+- Installabile come PWA quando servita via HTTPS.
+- Chi utilizza l’app può usare il pulsante “Ripristina dati demo” per creare dati fittizi di prova.
