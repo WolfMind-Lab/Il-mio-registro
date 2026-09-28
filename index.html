@@ -3,7 +3,9 @@
 <style>
 :root{--bg:#f5f6f8;--card:#fff;--ink:#14171c;--muted:#667085;--line:#e4e7ec;--navy:#111827;--blue:#1677ff;--green:#067647;--orange:#b54708;--red:#b42318;--soft:#f1f3f6;--shadow:0 7px 26px rgba(16,24,40,.055)}*{box-sizing:border-box}html{font-size:16px;touch-action:pan-y;overscroll-behavior-x:none}body{margin:0;touch-action:pan-y;overscroll-behavior-x:none;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;-webkit-text-size-adjust:100%;overflow-x:hidden}button,input,select,textarea{font:inherit}button{touch-action:manipulation;-webkit-tap-highlight-color:transparent;cursor:pointer}input,select,textarea{font-size:16px;min-height:48px;width:100%;border:1px solid #dfe3e8;border-radius:14px;padding:11px 13px;background:#fff;color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:#98a2b3;box-shadow:0 0 0 3px rgba(22,119,255,.08)}textarea{min-height:92px;resize:vertical}.app{max-width:940px;margin:auto;padding:calc(15px + env(safe-area-inset-top)) 14px calc(92px + env(safe-area-inset-bottom))}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:12px}.brand small{color:var(--muted)}h1{font-size:29px;letter-spacing:-.7px;margin:1px 0 3px}h2{font-size:19px;margin:0}h3{font-size:15px;margin:0}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:14px;min-height:44px;padding:9px 13px;font-weight:780}.primary{background:var(--navy);border-color:var(--navy);color:#fff}.blue{color:var(--blue)}.danger{color:var(--red)}.muted{color:var(--muted);font-size:12px}.nav{display:none;gap:7px;overflow:auto;margin-bottom:12px;scrollbar-width:none}.nav::-webkit-scrollbar{display:none}.nav .btn{white-space:nowrap}.nav .active{background:var(--navy);color:#fff}.page{display:none}.page.active{display:block}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:15px;margin-bottom:12px;box-shadow:var(--shadow)}.heroAmount{font-size:35px;font-weight:900;letter-spacing:-.8px;margin-top:3px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:13px}.stat{background:var(--soft);border-radius:14px;padding:10px}.stat b{display:block;font-size:17px;margin-top:2px}.sectionHead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.category{min-height:94px;text-align:left;padding:12px}.category .emoji{font-size:23px}.category strong{display:block;margin-top:5px}.category small{display:block;color:var(--muted);margin-top:3px;line-height:1.2}.kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.kpi>div,.balance{background:var(--soft);border-radius:14px;padding:11px}.kpi b,.balance b{display:block;font-size:18px;margin-top:2px}.row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding:12px 0;border-top:1px solid var(--line)}.row:first-child{border-top:0}.rowMain{min-width:0}.rowMain strong{display:block;overflow-wrap:anywhere}.sub{font-size:12px;color:var(--muted);margin-top:3px}.money{font-weight:850;white-space:nowrap}.in{color:var(--green)}.tag{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--soft);font-size:11px;font-weight:800;white-space:nowrap}.tag.ok{background:#ecfdf3;color:var(--green)}.tag.warn{background:#fff7ed;color:var(--orange)}.tag.blue{background:#eff8ff;color:var(--blue)}.empty{text-align:center;padding:18px;color:var(--muted)}.bottom{position:fixed;z-index:20;left:0;right:0;bottom:0;background:rgba(255,255,255,.98);border-top:1px solid var(--line);padding:6px max(8px,calc((100% - 940px)/2 + 8px)) max(6px,env(safe-area-inset-bottom));display:grid;grid-template-columns:repeat(6,1fr)}.bottom button{border:0;background:transparent;font-size:10px;color:var(--muted);padding:3px 2px}.bottom button.active{color:var(--blue);font-weight:800}.bottom span{display:block;font-size:18px}.search{display:flex;gap:7px}.filter{display:flex;gap:7px;overflow:auto;margin-top:9px;padding-bottom:4px}.pill{white-space:nowrap;border:1px solid var(--line);background:#fff;border-radius:99px;padding:8px 11px;font-size:12px;font-weight:750}.pill.active{background:var(--navy);color:#fff}.calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.dow{text-align:center;font-size:10px;color:var(--muted);padding:4px}.day{min-height:61px;border:1px solid var(--line);border-radius:9px;background:#fafafa;padding:5px;font-size:10px}.day.today{outline:2px solid var(--navy)}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin:3px 2px 0 0}.due{background:#f79009}.plan{background:#1677ff}.paid{background:#12b76a}.incomeDot{background:#7f56d9}.modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.48);display:flex;align-items:flex-end;justify-content:center}.sheet{width:min(900px,100%);max-height:94dvh;overflow:auto;touch-action:pan-y;-webkit-overflow-scrolling:touch;-webkit-overflow-scrolling:touch;background:#fff;border-radius:23px 23px 0 0;padding:16px 14px 30px}.sheetHead{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding-bottom:12px;position:sticky;top:-16px;background:#fff;z-index:2}.x{border:0;background:var(--soft);width:36px;height:36px;border-radius:50%;font-size:20px;color:var(--blue)}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.wide{grid-column:1/-1}label{display:block;font-size:12px;font-weight:800;margin-top:9px}label span{display:block;margin-bottom:5px}.choiceGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.choice{border:1px solid var(--line);background:#fff;border-radius:14px;padding:11px;text-align:left;font-weight:780;min-height:46px}.choice.active{background:var(--navy);color:#fff;border-color:var(--navy)}.note{border:1px solid var(--line);background:#f8fafc;border-radius:13px;padding:10px 11px;font-size:12px;color:var(--muted);margin-top:10px}.success{background:#ecfdf3;border-color:#abefc6;color:#05603a}.warning{background:#fff8eb;border-color:#fedf89;color:#7a4b00}.modalActions{display:flex;gap:8px;margin-top:15px}.modalActions>*{flex:1}.hidden{display:none!important}.installments{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:10px}.inst{display:grid;grid-template-columns:52px 1fr auto;gap:8px;align-items:center;padding:10px;border-top:1px solid var(--line)}.inst:first-child{border-top:0}.progress{height:8px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-top:8px}.progress i{display:block;height:100%;background:var(--navy)}.code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;word-break:break-all}.seg{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;background:var(--soft);padding:4px;border-radius:14px;margin-bottom:9px}.seg button{border:0;background:transparent;border-radius:11px;padding:10px;font-weight:800}.seg button.active{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.08)}.subPrice{border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:8px;background:#fafafa}.subPlan{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px;margin:5px 0;font-weight:700}.subPlan.active{border-color:var(--navy);background:#f5f6f8}.priceLine{display:flex;justify-content:space-between;gap:10px}.miniGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.lineCard{border:1px solid var(--line);border-radius:15px;padding:12px}.lineCard b{font-size:18px}.balanceList{display:grid;grid-template-columns:1fr;gap:8px}.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}.footerNote{text-align:center;color:var(--muted);font-size:11px;padding-top:8px}.ledgerTabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;background:var(--soft);padding:4px;border-radius:14px}.ledgerTabs button{border:0;background:transparent;border-radius:11px;padding:9px;font-weight:800}.ledgerTabs button.active{background:#fff}.summaryGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.categoryHead{font-size:13px;font-weight:850;color:var(--muted);margin:15px 0 7px}.smallAction{min-height:36px;padding:7px 10px;font-size:12px}.propertyBox{background:#fafafa;border:1px solid var(--line);border-radius:14px;padding:10px}.readonly{background:#f5f6f8}.choice.disabled{opacity:.45}.inlineHint{font-size:11px;color:var(--muted);margin-top:5px}.selectSearchWrap{margin:7px 0 5px}.selectSearch{min-height:42px!important;border-radius:12px!important;background:#f8fafc!important;padding:9px 11px!important}.smartSearch{margin-bottom:10px}.smartSearch input{background:#f8fafc}
 @media(min-width:650px){.nav{display:flex}.grid{grid-template-columns:repeat(3,1fr)}.stats{grid-template-columns:repeat(4,1fr)}.kpi{grid-template-columns:repeat(4,1fr)}.bottom{display:none}.modal{align-items:center}.sheet{border-radius:23px;max-width:860px}.balanceList{grid-template-columns:repeat(2,1fr)}}
-.tobaccoResults124 button:hover{background:#f8fafc!important}.tobaccoResults124 button:first-child{border-top:0!important}</style><style>
+.tobaccoResults124 button:hover{background:#f8fafc!important}.tobaccoResults124 button:first-child{border-top:0!important}
+.serviceGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}.serviceChoice{border:1px solid #dfe3ea;background:#fff;border-radius:14px;padding:12px 10px;font:inherit;font-weight:700;text-align:left;cursor:pointer}.serviceChoice.active{border-color:#3b82f6;box-shadow:0 0 0 2px rgba(59,130,246,.12);background:#f5f9ff}.subPlan{display:block;width:100%;margin-top:8px;border:1px solid #dfe3ea;background:#fff;border-radius:14px;padding:12px;text-align:left;cursor:pointer}.subPlan.active{border-color:#3b82f6;background:#f5f9ff}.priceLine{display:flex;justify-content:space-between;gap:12px}.priceLine strong{color:#1677e8}@media(max-width:520px){.serviceGrid{grid-template-columns:1fr}}
+</style><style>
 .sflCard .sflGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.sflCard .sflStat{padding:12px;border:1px solid #e5e7eb;border-radius:14px;background:#fafafa}.sflCard .sflStat b{display:block;font-size:18px;margin-top:4px}.sflProgress{height:10px;border-radius:999px;background:#e5e7eb;overflow:hidden;margin:12px 0 8px}.sflProgress>span{display:block;height:100%;width:0;background:#111827;border-radius:999px}.sflMonths{font-size:13px;color:#6b7280}.sflSummary{margin-top:10px;padding:12px;border-radius:14px;background:#f3f4f6}.sflSummary b{font-size:17px}.sflMini{display:flex;justify-content:space-between;gap:10px;margin-top:7px;font-size:13px}.sflPlanList{margin-top:10px}.sflInstallment{display:grid;grid-template-columns:54px 1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid #eee}.sflInstallment:last-child{border-bottom:0}.sflInstallment .money{font-weight:700}.sflInstallment small{display:block;color:#6b7280}.sflInstallment .tag{justify-self:end}
 @media(max-width:520px){.sflCard .sflGrid{grid-template-columns:1fr 1fr}.sflInstallment{grid-template-columns:46px 1fr auto}}
 </style></head><body>
@@ -29,7 +31,7 @@
 <script src="tobacco-adm.js"></script>
 <script>
 const KEY='imr_v12';
-const APP_VERSION='12.4';
+const APP_VERSION='13.0';
 const subscriptionPlans={
 'Amazon Prime':[{name:'Mensile',price:4.99,frequency:'Mensile'},{name:'Annuale',price:49.90,frequency:'Annuale'}],
 'Prime Video':[{name:'Mensile',price:4.99,frequency:'Mensile'}],
@@ -125,7 +127,7 @@ if(k==='admin')return `<form id="f"><label><span>Ente / servizio</span><select n
 if(k==='bill')return `<form id="f"><label><span>Fornitore / servizio</span><select name="preset">${presetOptions('bill')}</select></label><div class="formgrid"><label><span>Tipo</span><select name="billType"><option>Luce</option><option>Gas</option><option>Acqua</option><option>Internet</option><option>Telefono</option><option>Condominio</option><option>Altro</option></select></label><label><span>Periodo</span><input name="period" placeholder="es. agosto 2026"></label></div>${common('bill')}<div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva bolletta</button></div></form>`;
 if(k==='housing')return `<form id="f"><div class="choiceGrid">${['Affitto','Mutuo','Spesa immobile','Manutenzione','Altro'].map((x,i)=>`<button type="button" class="choice ${i===0?'active':''}" data-housing-type="${x}">${x}</button>`).join('')}</div><input type="hidden" name="housingType" value="Affitto"><div class="propertyBox"><div class="formgrid"><label><span>Tipo immobile</span><select name="propertyType"><option>Casa</option><option>Appartamento</option><option>Garage</option><option>Box auto</option><option>Villetta</option><option>Stanza</option><option>Ufficio</option><option>Terreno</option><option>Altro</option></select></label><label><span>Identificativo / zona</span><input name="propertyName" placeholder="es. Casa principale"></label></div></div>${common('housing')}<div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva spesa</button></div></form>`;
 if(k==='installment')return installmentForm();
-if(k==='subscription')return `<form id="f"><label><span>Servizio</span><select name="preset" id="subService">${presetOptions('subscription')}</select></label><div id="subPlans" class="subPrice"></div><div class="formgrid"><label><span>Piano scelto</span><input name="planName" id="planName" required placeholder="Seleziona un piano o scrivilo"></label><label><span>Prezzo reale (€)</span><input name="amount" id="subAmount" type="number" min="0" step="0.01" required></label><label><span>Frequenza</span><select name="frequency" id="subFrequency"><option>Mensile</option><option>Annuale</option><option>Settimanale</option><option>Personalizzata</option></select></label><label><span>Prossimo rinnovo</span><input name="dueDate" type="date"></label><label><span>Rinnovo automatico</span><select name="auto"><option>Sì</option><option>No</option></select></label></div><div class="formgrid">${paymentOptionsHTML()}</div><label><span>Note</span><textarea name="notes"></textarea></label><div class="note success">Selezionando un piano, prezzo e frequenza vengono compilati automaticamente. Puoi correggere il prezzo per registrare l'importo effettivamente addebitato.</div><div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva abbonamento</button></div></form>`;
+if(k==='subscription')return `<form id="f"><label><span>Servizio</span><input type="hidden" name="preset" id="subService"><div id="subServices" class="serviceGrid"></div></label><div id="subPlans" class="subPrice"></div><div class="formgrid"><label><span>Piano scelto</span><input name="planName" id="planName" required placeholder="Seleziona un piano o inseriscilo"></label><label><span>Prezzo reale (€)</span><input name="amount" id="subAmount" type="number" min="0" step="0.01" required></label><label><span>Frequenza</span><select name="frequency" id="subFrequency"><option>Mensile</option><option>Annuale</option><option>Settimanale</option><option>Personalizzata</option></select></label><label><span>Prossimo rinnovo</span><input name="dueDate" type="date"></label><label><span>Rinnovo automatico</span><select name="auto"><option>Sì</option><option>No</option></select></label></div><div class="formgrid">${paymentOptionsHTML()}</div><label><span>Note</span><textarea name="notes"></textarea></label><div class="note success">Scegli il servizio e poi il piano. Prezzo e frequenza vengono compilati automaticamente quando è disponibile un prezzo verificato.</div><div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva abbonamento</button></div></form>`;
 if(k==='phone')return `<form id="f"><div class="formgrid"><label><span>Linea</span><select name="lineId" id="phoneLine">${lineOptions()}</select></label><label><span>Operatore</span><input name="operator" id="phoneOperator" class="readonly" readonly placeholder="Automatico dalla linea"></label></div><div class="seg"><button type="button" class="active" data-phone-tab="promo">📶 Promozione</button><button type="button" data-phone-tab="recharge">💶 Ricarica</button></div><input type="hidden" name="phoneMode" value="promo"><div id="phoneFields"></div><div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Registra operazione</button></div></form>`;
 if(k==='travel')return `<form id="f"><label><span>Viaggio</span><input name="tripName" required placeholder="es. Roma 2026"></label><div class="formgrid"><label><span>Regione / area</span><input name="region" list="regionsItalia" placeholder="🔎 Cerca regione…"><datalist id="regionsItalia">${productOptions(regionsItalia)}</datalist></label><label><span>Provincia</span><input name="province"></label><label><span>Città / Comune</span><input name="city" placeholder="🔎 Cerca città / comune…"></label><label><span>Data</span><input name="date" type="date" value="${today()}"></label><label><span>Tipo spesa</span><select name="travelType"><option>Alloggio</option><option>Trasporto</option><option>Agenzia viaggio</option><option>Spese durante il viaggio</option><option>Altro</option></select></label><label><span>Importo (€)</span><input name="amount" type="number" min="0" step="0.01" required></label></div><div id="travelDetails"></div><div class="formgrid"><label><span>Metodo / conto</span><select name="accountId">${accountOptions()}</select></label><label><span>Note</span><input name="notes"></label></div><div class="note">Per le località italiane, la struttura geografica va mantenuta allineata all’elenco ufficiale ISTAT; la città può essere cercata per nome.</div><div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva viaggio</button></div></form>`;
 if(k==='concert')return `<form id="f"><div class="formgrid"><label><span>Evento / artista</span><input name="event" required></label><label><span>Tipo</span><select name="concertType"><option>Concerto</option><option>Festival</option><option>Teatro</option><option>Spettacolo</option><option>Cinema</option></select></label><label><span>Luogo / città</span><input name="venue"></label><label><span>Data evento</span><input name="eventDate" type="date"></label><label><span>Numero biglietti</span><input name="qty" type="number" min="1" value="1"></label><label><span>Prezzo per biglietto (€)</span><input name="unitPrice" type="number" min="0" step="0.01" required></label><label><span>Importo totale (€)</span><input name="amount" type="number" min="0" step="0.01" readonly class="readonly" required></label><label><span>Metodo / conto</span><select name="accountId">${accountOptions()}</select></label><label><span>Data acquisto</span><input name="date" type="date" value="${today()}"></label></div><label><span>Note</span><textarea name="notes"></textarea></label><div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva evento</button></div></form>`;
@@ -263,7 +265,7 @@ function migrateSflV12(){if(state.items.some(x=>x.kind==='incomePlan'&&x.preset=
 const initBeforeSfl=initV12;initV12=function(){migrateSflV12();initBeforeSfl();sflHomeV12()};
 
 
-/* ===== V12.4 CLEAN CONSISTENCY LAYER ===== */
+/* ===== V13.0 CLEAN CONSISTENCY LAYER ===== */
 const IMR124={
   channels:{
     common:['','Online','In negozio / punto vendita','In contanti al fornitore','Addebito automatico','Bonifico','POS / carta','Altro'],
@@ -332,25 +334,32 @@ function paymentContext124(f,kind){
 function cleanSubscriptionForm124(f){
   if(!f?.subService)return;
   const select=f.subService;
-  const wrapper=select.closest('.selectSearchWrap');
-  if(wrapper){wrapper.replaceWith(select);}
-  select.style.display='';
-  select.dataset.searchAdded='';
-  const box=f.querySelector('#subPlans');
-  const render=()=>{
-    const service=select.value;
+  const services=Array.isArray(presets.subscription)?presets.subscription.slice():[];
+  const serviceBox=f.querySelector('#subServices');
+  const planBox=f.querySelector('#subPlans');
+  if(!serviceBox||!planBox)return;
+  select.value=select.value||'';
+  serviceBox.innerHTML=services.map(service=>`<button type="button" class="serviceChoice" data-service="${esc(service)}">${esc(service)}</button>`).join('');
+  const renderPlans=()=>{
+    const service=select.value||'';
+    serviceBox.querySelectorAll('[data-service]').forEach(b=>b.classList.toggle('active',b.dataset.service===service));
     const plans=subscriptionPlans[service]||[];
-    box.innerHTML=plans.length
-      ? `<b>Piani e prezzi disponibili</b>${plans.map((p,i)=>`<button type="button" class="subPlan" data-plan-index="${i}"><span class="priceLine"><span>${esc(p.name)}</span><strong>${euro(p.price)}</strong></span><small class="muted">${p.frequency}</small></button>`).join('')}`
-      : `<div class="muted">Per questo servizio non è disponibile un prezzo verificato nell’app. Inserisci il prezzo effettivamente addebitato.</div>`;
-    box.querySelectorAll('[data-plan-index]').forEach(btn=>btn.onclick=()=>{
+    planBox.innerHTML=plans.length
+      ? `<b>Piani e prezzi disponibili</b>${plans.map((p,i)=>`<button type="button" class="subPlan" data-plan-index="${i}"><span class="priceLine"><span>${esc(p.name)}</span><strong>${euro(p.price)}</strong></span><small class="muted">${esc(p.frequency)}</small></button>`).join('')}`
+      : service
+        ? `<div class="muted">Per questo servizio non è disponibile un prezzo verificato nell’app. Inserisci il prezzo effettivamente addebitato.</div>`
+        : `<div class="muted">Seleziona prima un servizio.</div>`;
+    planBox.querySelectorAll('[data-plan-index]').forEach(btn=>btn.onclick=()=>{
       const p=plans[Number(btn.dataset.planIndex)]; if(!p)return;
       f.planName.value=p.name; f.amount.value=p.price; f.frequency.value=p.frequency;
-      box.querySelectorAll('[data-plan-index]').forEach(x=>x.classList.remove('active')); btn.classList.add('active');
+      planBox.querySelectorAll('[data-plan-index]').forEach(x=>x.classList.remove('active')); btn.classList.add('active');
     });
   };
-  select.onchange=render;
-  render();
+  serviceBox.querySelectorAll('[data-service]').forEach(btn=>btn.onclick=()=>{
+    select.value=btn.dataset.service;
+    renderPlans();
+  });
+  renderPlans();
 }
 function tobaccoSearch124(f){
   const input=f?.brand; if(!input)return;
@@ -432,7 +441,7 @@ function openEditItem124(id){
   if(k==='housing'&&x.housingType){const b=[...document.querySelectorAll('[data-housing-type]')].find(b=>b.dataset.housingType===x.housingType);if(b)b.click()}
   const simple=['title','amount','dueDate','plannedDate','actualDate','date','startDate','endDate','accountId','creditId','paymentChannel','paymentPlace','priority','preset','notes','planName','frequency','auto','productType','brand','model','positionCode','paymentCode','documentCode','transactionCode','billType','period','housingType','propertyType','propertyName','feeType','tripName','destination','travelType','event','concertType','venue','eventDate','qty','unitPrice','provider','providerName','taxFlag','reference','vehicle','team','opponent','matchType','stadium','city','eventTime','officialPrice','lineId','offer','chargeSource','line4','targetNumber','targetOperator','phoneMode','receivingMethod','contractType','region','province'];
   simple.forEach(n=>setField124(f,n,x[n]));
-  if(k==='subscription'){cleanSubscriptionForm124(f);if(f.subService){f.subService.value=x.preset||'';f.subService.dispatchEvent(new Event('change',{bubbles:true}))}}
+  if(k==='subscription'){cleanSubscriptionForm124(f);if(f.subService){f.subService.value=x.preset||'';cleanSubscriptionForm124(f)}}
   if(k==='tobacco'){setField124(f,'brand',x.brand);setField124(f,'officialPrice',x.officialPrice);setField124(f,'qty',x.qty);setField124(f,'amount',x.amount);tobaccoSearch124(f)}
   if(k==='sports'||k==='concert'){f.qty?.dispatchEvent(new Event('input',{bubbles:true}));f.unitPrice?.dispatchEvent(new Event('input',{bubbles:true}))}
   if(k==='travel')f.travelType?.dispatchEvent(new Event('change',{bubbles:true}));
@@ -482,4 +491,178 @@ const _renderAccounts124=renderAccounts;
 renderAccounts=function(){_renderAccounts124();addDeleteButtons124()};
 normalizeState124();
 bindPlanning124();
-</script></body></html>
+</script>
+<script>
+/* IL MIO REGISTRO — V13.0 OFFICIAL CLEAN CONTROLLER
+   One controller for subscriptions, tobacco search, planning tabs and contextual payment methods.
+   This layer intentionally bypasses legacy generic select/search behaviour for the components that
+   previously conflicted on iPhone/Safari. Existing data model and storage are preserved.
+*/
+(function(){
+'use strict';
+const V13_VERSION='13.0';
+const V13_SUB_SERVICES = Array.from(new Set((presets?.subscription||[])));
+const V13_CHANNELS = {
+  grocery:['','Contanti','POS / carta','Online','Altro'],
+  home:['','Contanti','POS / carta','Online','Altro'],
+  clothes:['','Contanti','POS / carta','Online','Altro'],
+  beauty:['','Contanti','POS / carta','Online','Altro'],
+  purchase:['','Contanti','POS / carta','Online','Bonifico','Altro'],
+  personal:['','Contanti','POS / carta','Online','Bonifico','Altro'],
+  health:['','Contanti','POS / carta','Online','Bonifico','Addebito automatico','Altro'],
+  education:['','Contanti','POS / carta','Online','Bonifico','Addebito automatico','Altro'],
+  professional:['','Contanti','POS / carta','Online','Bonifico','Addebito automatico','Assegno','Altro'],
+  mobility:['','Contanti','POS / carta','Online','Bonifico','Addebito automatico','Altro'],
+  travel:['','Contanti','POS / carta','Online','Bonifico','Addebito automatico','Altro'],
+  concert:['','Contanti','POS / carta','Online','Bonifico','Altro'],
+  sports:['','Contanti','POS / carta','Online','Bonifico','Altro'],
+  subscription:['','Online','Addebito automatico','POS / carta','Bonifico','Contanti','Altro'],
+  tobacco:['','Contanti','POS / carta','Online','Al tabacchino / tabaccheria','Altro'],
+  bill:['','Online','Addebito automatico','Bonifico','POS / carta','Contanti','Ufficio postale','Altro'],
+  housing:['','Online','Bonifico','Addebito automatico','POS / carta','Contanti','Altro'],
+  fee:['','Addebito automatico','Bonifico','POS / carta','Online','Contanti','Altro'],
+  admin:['','Online','Bonifico','Addebito automatico','POS / carta','Contanti','Ufficio postale','Al tabacchino / tabaccheria','Assegno','Altro'],
+  installment:['','Online','Bonifico','Addebito automatico','POS / carta','Contanti','Ufficio postale','Al tabacchino / tabaccheria','Assegno','Altro']
+};
+function esc13(s){return (window.esc?esc(String(s)):String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])))}
+function euro13(n){return window.euro?euro(n):Number(n||0).toLocaleString('it-IT',{style:'currency',currency:'EUR'})}
+function creditOptions13(sel=''){return '<option value="">— Nessuno —</option>'+((state?.credits)||[]).map(c=>`<option value="${esc13(c.id)}" ${c.id===sel?'selected':''}>${esc13(c.provider||c.name||'Credito')} · ${esc13(c.name||'Saldo')} · ${euro13(typeof creditBalance==='function'?creditBalance(c.id):c.initial)} disponibili</option>`).join('')}
+function paymentHTML13(kind, selectedAccount='', selectedCredit='', selectedChannel='', place=''){
+ const channels=V13_CHANNELS[kind]||V13_CHANNELS.purchase;
+ return `<div class="formgrid v13PaymentBlock">
+ <label><span>Metodo / conto utilizzato</span><select name="accountId">${typeof accountOptions==='function'?accountOptions(selectedAccount):'<option value="">— Nessuno —</option>'}</select></label>
+ <label><span>Buono / credito account utilizzato</span><select name="creditId">${creditOptions13(selectedCredit)}</select></label>
+ <label><span>Modalità di pagamento</span><select name="paymentChannel">${channels.map((x,i)=>`<option value="${esc13(x)}" ${x===selectedChannel?'selected':''}>${i===0?'— Seleziona —':esc13(x)}</option>`).join('')}</select></label>
+ <label><span>Canale / luogo del pagamento</span><input name="paymentPlace" value="${esc13(place||'')}" placeholder="es. supermercato, sito web, tabaccheria…"></label>
+ </div>`;
+}
+function serviceForm13(existing){
+ const service=existing?.preset||'';
+ const plan=existing?.planName||'';
+ const amount=existing?.amount??'';
+ const freq=existing?.frequency||'Mensile';
+ const auto=existing?.autoRenew||'Sì';
+ const due=existing?.dueDate||'';
+ const notes=existing?.notes||'';
+ const account=existing?.accountId||'';
+ const credit=existing?.creditId||'';
+ const channel=existing?.paymentChannel||'';
+ const place=existing?.paymentPlace||'';
+ return `<form id="f" data-v13-form="subscription">
+ <label><span>Servizio</span><input id="v13SubSearch" type="search" autocomplete="off" placeholder="🔎 Cerca un servizio…" value="${esc13(service)}"></label>
+ <input type="hidden" name="preset" id="subService" value="${esc13(service)}">
+ <div id="subServices" class="serviceGrid v13ServiceGrid"></div>
+ <div id="subPlans" class="subPrice"><div class="muted">Seleziona un servizio per visualizzare i piani disponibili.</div></div>
+ <div class="formgrid">
+  <label><span>Piano scelto</span><input name="planName" id="planName" value="${esc13(plan)}" required placeholder="Seleziona un piano o inseriscilo manualmente"></label>
+  <label><span>Prezzo reale (€)</span><input name="amount" id="subAmount" type="number" min="0" step="0.01" value="${esc13(amount)}" required></label>
+  <label><span>Frequenza</span><select name="frequency" id="subFrequency"><option ${freq==='Mensile'?'selected':''}>Mensile</option><option ${freq==='Annuale'?'selected':''}>Annuale</option><option ${freq==='Settimanale'?'selected':''}>Settimanale</option><option ${freq==='Personalizzata'?'selected':''}>Personalizzata</option></select></label>
+  <label><span>Prossimo rinnovo</span><input name="dueDate" type="date" value="${esc13(due)}"></label>
+  <label><span>Rinnovo automatico</span><select name="auto"><option ${auto==='Sì'?'selected':''}>Sì</option><option ${auto==='No'?'selected':''}>No</option></select></label>
+ </div>
+ ${paymentHTML13('subscription',account,credit,channel,place)}
+ <label><span>Note</span><textarea name="notes">${esc13(notes)}</textarea></label>
+ <div class="note success">Seleziona il servizio, poi il piano. Il prezzo ufficiale viene riportato automaticamente quando è disponibile; puoi correggerlo con il prezzo effettivamente addebitato.</div>
+ <div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva abbonamento</button></div>
+ </form>`;
+}
+function bindSubscription13(f){
+ const search=f.querySelector('#v13SubSearch'), hidden=f.querySelector('#subService'), box=f.querySelector('#subServices'), plans=f.querySelector('#subPlans');
+ if(!search||!hidden||!box||!plans)return;
+ let current=hidden.value||'';
+ const renderServices=()=>{
+   const q=(search.value||'').trim().toLowerCase();
+   const list=V13_SUB_SERVICES.filter(s=>!q||s.toLowerCase().includes(q));
+   box.innerHTML=list.map(s=>`<button type="button" class="serviceChoice ${s===current?'active':''}" data-v13-service="${esc13(s)}">${esc13(s)}</button>`).join('')||'<div class="empty">Nessun servizio trovato.</div>';
+   box.querySelectorAll('[data-v13-service]').forEach(b=>b.onclick=()=>{current=b.dataset.v13Service;hidden.value=current;search.value=current;renderServices();renderPlans();});
+ };
+ const renderPlans=()=>{
+   const ps=(subscriptionPlans?.[current]||[]);
+   plans.innerHTML=ps.length?`<b>Piani e prezzi disponibili</b>`+ps.map((p,i)=>`<button type="button" class="subPlan ${f.planName.value===p.name?'active':''}" data-v13-plan="${i}"><span class="priceLine"><span>${esc13(p.name)}</span><strong>${euro13(p.price)}</strong></span><small class="muted">${esc13(p.frequency)}</small></button>`).join(''):(current?'<div class="muted">Per questo servizio non è disponibile un prezzo verificato nell’app. Inserisci il prezzo effettivamente addebitato.</div>':'<div class="muted">Seleziona un servizio per visualizzare i piani disponibili.</div>');
+   plans.querySelectorAll('[data-v13-plan]').forEach(b=>b.onclick=()=>{const p=ps[Number(b.dataset.v13Plan)];if(!p)return;f.planName.value=p.name;f.amount.value=p.price;f.frequency.value=p.frequency;plans.querySelectorAll('.subPlan').forEach(x=>x.classList.remove('active'));b.classList.add('active');});
+ };
+ search.oninput=renderServices;
+ if(current && !V13_SUB_SERVICES.includes(current)){current='';hidden.value='';search.value='';}
+ renderServices();renderPlans();
+ f.onsubmit=e=>{e.preventDefault();if(!hidden.value){alert('Seleziona un servizio prima di salvare l’abbonamento.');return;}if(!f.planName.value.trim()){alert('Seleziona un piano oppure inserisci il nome del piano.');return;}window.saveForm('subscription',f)};
+}
+function tobaccoForm13(existing){
+ return `<form id="f" data-v13-form="tobacco">
+ <label><span>Prodotto</span><select name="preset">${(tobaccoKinds||[]).map(x=>`<option>${esc13(x)}</option>`).join('')}</select></label>
+ <label style="position:relative"><span>Marca / prodotto ufficiale ADM</span><input name="brand" id="v13TobaccoSearch" autocomplete="off" value="${esc13(existing?.brand||'')}" placeholder="🔎 Digita marca o prodotto, ad esempio Marlboro…"><div id="v13TobaccoResults" class="tobaccoResults124" style="display:none"></div></label>
+ <div class="formgrid"><label><span>Quantità</span><input name="qty" id="v13TobaccoQty" type="number" min="1" step="1" value="${esc13(existing?.qty||'')}" placeholder="1"></label><label><span>Prezzo ufficiale unitario (€)</span><input name="officialPrice" id="v13TobaccoUnit" type="number" min="0" step="0.01" value="${esc13(existing?.officialPrice||'')}"></label><label><span>Importo totale (€)</span><input name="amount" id="v13TobaccoAmount" type="number" min="0" step="0.01" value="${esc13(existing?.amount||'')}" required></label></div>
+ ${paymentHTML13('tobacco',existing?.accountId||'',existing?.creditId||'',existing?.paymentChannel||'',existing?.paymentPlace||'')}
+ <div class="note warning">Listino ADM integrato: 4.337 referenze ufficiali provenienti dai sette PDF forniti. Se un articolo non è presente nei listini ADM, puoi inserire manualmente il prodotto e il prezzo.</div>
+ <label><span>Data della spesa</span><input name="date" type="date" value="${esc13(existing?.date||today())}"></label>
+ <label><span>Note</span><textarea name="notes">${esc13(existing?.notes||'')}</textarea></label>
+ <div class="modalActions"><button type="button" class="btn" onclick="closeModal()">Annulla</button><button class="btn primary">Salva spesa</button></div>
+ </form>`;
+}
+function bindTobacco13(f){
+ const input=f.querySelector('#v13TobaccoSearch'),box=f.querySelector('#v13TobaccoResults'),unit=f.querySelector('#v13TobaccoUnit'),qty=f.querySelector('#v13TobaccoQty'),amount=f.querySelector('#v13TobaccoAmount');
+ if(!input||!box)return;
+ const list=window.ADM_TOBACCO_LIST||[];
+ const update=()=>{const q=input.value.trim().toLowerCase();const rows=(q?list.filter(r=>(String(r[2])+' '+String(r[3])+' '+String(r[1])).toLowerCase().includes(q)):[]).slice(0,30);box.innerHTML=rows.length?rows.map((r,i)=>`<button type="button" data-i="${list.indexOf(r)}"><strong>${esc13(r[2])}</strong><br><span class="muted">${esc13(r[3])} · ${euro13(r[4])} · ADM ${esc13(r[1])}</span></button>`).join(''):(q?'<div class="muted" style="padding:11px">Nessun prodotto ADM trovato.</div>':'');box.style.display=rows.length||q?'block':'none';box.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{const r=list[Number(b.dataset.i)];input.value=`${r[2]} · ${r[3]} · ${euro13(r[4])} · ADM ${r[1]} · ${r[0]}`;unit.value=r[4];if(amount)amount.value=((Number(qty?.value)||1)*Number(r[4])).toFixed(2);box.style.display='none';});};
+ input.oninput=update;input.onfocus=update;qty?.addEventListener('input',()=>{if(unit.value)amount.value=((Number(qty.value)||1)*Number(unit.value)).toFixed(2)});unit?.addEventListener('input',()=>{if(unit.value)amount.value=((Number(qty?.value)||1)*Number(unit.value)).toFixed(2)});
+}
+function ensurePayment13(f,kind){
+ if(!f)return;
+ if(['future','reminder','income','phone'].includes(kind))return;
+ let block=f.querySelector('.v13PaymentBlock');
+ if(!block){
+   const acc=f.querySelector('select[name="accountId"]');
+   if(!acc)return;
+   const host=acc.closest('.formgrid')||acc.closest('label')?.parentElement;
+   if(!host)return;
+   block=document.createElement('div');block.innerHTML=paymentHTML13(kind,acc.value,'','','');
+   host.appendChild(block.firstElementChild);
+   block=f.querySelector('.v13PaymentBlock');
+ }
+ const ch=f.querySelector('select[name="paymentChannel"]');
+ if(!ch)return;
+ const allowed=V13_CHANNELS[kind]||V13_CHANNELS.purchase;
+ const current=ch.value;
+ ch.innerHTML=allowed.map((x,i)=>`<option value="${esc13(x)}">${i===0?'— Seleziona —':esc13(x)}</option>`).join('');
+ ch.value=allowed.includes(current)?current:'';
+ ch.style.display='';ch.closest('label')?.style.removeProperty('display');
+ f.querySelectorAll('.selectSearchWrap').forEach(w=>{if(w.nextElementSibling===ch||w.querySelector('input.selectSearch'))w.style.display='none';});
+ const place=f.querySelector('input[name="paymentPlace"]');if(place){place.disabled=false;place.placeholder='es. supermercato, sito web, tabaccheria…';}
+ const credit=f.querySelector('select[name="creditId"]');if(credit)credit.innerHTML=creditOptions13(credit.value);
+ ch.onchange=()=>{if(place)place.disabled=!ch.value};
+}
+function bindPlanning13(){
+ const tabs=document.querySelectorAll('#page-planning [data-plan-tab]');if(!tabs.length)return;
+ tabs.forEach(b=>b.onclick=e=>{e.preventDefault();window.v11PlanTab=b.dataset.planTab;tabs.forEach(t=>t.classList.toggle('active',t===b));window.renderPlanning();});
+ tabs.forEach(b=>b.style.pointerEvents='auto');
+}
+const originalOpenForm=window.openForm;
+window.openForm=function(kind){
+ if(kind==='subscription'){
+   document.getElementById('kicker').textContent='Nuova registrazione';document.getElementById('modalTitle').textContent='Nuovo abbonamento';
+   document.getElementById('mount').innerHTML=serviceForm13();document.getElementById('modal').classList.remove('hidden');bindSubscription13(document.getElementById('f'));return;
+ }
+ if(kind==='tobacco'){
+   document.getElementById('kicker').textContent='Nuova registrazione';document.getElementById('modalTitle').textContent='Nuova spesa tabaccheria';
+   document.getElementById('mount').innerHTML=tobaccoForm13();document.getElementById('modal').classList.remove('hidden');bindTobacco13(document.getElementById('f'));return;
+ }
+ originalOpenForm(kind);
+ setTimeout(()=>ensurePayment13(document.getElementById('f'),kind),0);
+};
+const originalShowPage=window.showPage;
+window.showPage=function(p){originalShowPage(p);if(p==='planning')bindPlanning13();};
+// Improve automatic wording without altering data values.
+const wording13={
+ 'Nessuna posizione trovata con questo codice.':'Non è stata trovata alcuna registrazione con questo codice.',
+ 'Importo non valido.':'Inserisci un importo valido.',
+ 'Seleziona una linea telefonica.':'Seleziona una linea telefonica prima di continuare.',
+ 'Inserisci il numero da ricaricare o seleziona una linea registrata.':'Inserisci il numero da ricaricare oppure seleziona una linea registrata.',
+ 'Il codice non corrisponde a questa rateizzazione.':'Il codice inserito non corrisponde a questa rateizzazione.'
+};
+function patchText13(root=document){const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);for(const n of nodes){let t=n.nodeValue;for(const [a,b] of Object.entries(wording13))if(t.includes(a))t=t.split(a).join(b);n.nodeValue=t;}}
+// Initial cleanup and validation hooks.
+setTimeout(()=>{bindPlanning13();patchText13();},0);
+window.__IMR_V13_READY__=true;
+window.__IMR_V13_VERSION__=V13_VERSION;
+})();
+</script>
+</body></html>
