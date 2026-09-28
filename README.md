@@ -16,3 +16,14 @@ Versione consolidata del progetto, costruita a partire dalla V12.4 e dalle migli
 
 ## Dati e privacy
 L’app è una PWA locale basata su `localStorage` e non utilizza un backend. Non vengono richiesti numero completo della carta, CVV, PIN o password.
+
+
+## V13 — funzionalità consolidate aggiuntive
+- duplicazione sicura delle registrazioni;
+- indicazione dei giorni di anticipo/ritardo rispetto alla scadenza;
+- azzeramento completo protetto con doppia conferma;
+- tipo di contratto registrabile nelle voci pertinenti;
+- distinzione tra acquisto in negozio fisico, online e marketplace;
+- filtro ADM della tabaccheria correlato al prodotto selezionato (sigarette, sigari, sigaretti, trinciati, tabacchi da inalazione);
+- blocco della selezione di un prodotto ADM incompatibile con la categoria scelta;
+- modifica tabaccheria mantenendo lo stesso filtro di compatibilità.
