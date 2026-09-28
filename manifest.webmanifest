@@ -1,11 +1,1 @@
-{
-  "name":"Il Mio Registro",
-  "short_name":"Il Mio Registro",
-  "start_url":"./",
-  "display":"standalone",
-  "background_color":"#f5f6f8",
-  "theme_color":"#111827",
-  "lang":"it",
-  "description":"Registro finanziario personale con entrate, uscite, scadenze, pagamenti, saldi e pianificazione.",
-  "icons":[{"src":"./icon.png","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}]
-}
+{"name":"Il Mio Registro","short_name":"Il Mio Registro","start_url":"./","display":"standalone","background_color":"#f5f6f8","theme_color":"#111827","lang":"it","description":"Registro finanziario personale con entrate, uscite, scadenze, pagamenti, saldi e pianificazione.","icons":[{"src":"./icon.png","sizes":"1254x1254","type":"image/png","purpose":"any maskable"}],"id":"./"}

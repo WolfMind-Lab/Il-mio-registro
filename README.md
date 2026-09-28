@@ -1,19 +1,18 @@
-# Il Mio Registro — V13.0 Ufficiale
+# Il Mio Registro — V13.0 Consolidata
 
-Versione ufficiale riorganizzata del progetto.
+Versione consolidata del progetto, costruita a partire dalla V12.4 e dalle migliorie V13 presenti nell’archivio storico.
 
-## Correzioni principali
-- Controller indipendente per gli abbonamenti: i servizi non dipendono dal selettore generico e possono essere cercati/selezionati singolarmente.
-- Piani e prezzi collegati al servizio selezionato.
-- Ricerca tabaccheria ADM indipendente dal datalist del browser, con 4.337 referenze ufficiali integrate.
-- Metodi di pagamento filtrati per contesto.
-- Promemoria, acquisti futuri e contratti con tab unificati.
-- Contanti senza canoni o campi non pertinenti.
-- Lessico e messaggi automatici uniformati.
-- Compatibilità mobile/iPhone migliorata.
+## Stabilizzazione
+- storage ufficiale V13 con migrazione controllata da `imr_v12` e versioni precedenti;
+- cache PWA dedicata `il-mio-registro-v13`;
+- un solo controller V13 per abbonamenti, tabaccheria, pianificazione e contesto pagamento;
+- niente duplicazione automatica dei blocchi di pagamento già presenti nei form legacy;
+- saldo dei crediti aggiornato anche quando un acquisto viene pagato direttamente con un credito;
+- ricorrenze coerenti: le entrate una tantum non generano nuove occorrenze; gli abbonamenti rispettano il flag di rinnovo automatico;
+- intervallo personalizzato degli abbonamenti espresso in giorni;
+- sincronizzazione dei piani rateali/SFL dopo aggiornamento delle singole mensilità;
+- interfaccia abbonamenti e ricerca ADM ottimizzata per mobile;
+- database ADM integrato: 4.337 referenze.
 
-## Dati
-Il listino ADM è quello integrato nel progetto e comprende le sette liste fornite.
-
-## Nota tecnica
-L'app è una PWA locale basata su localStorage; non utilizza un backend.
+## Dati e privacy
+L’app è una PWA locale basata su `localStorage` e non utilizza un backend. Non vengono richiesti numero completo della carta, CVV, PIN o password.
